@@ -44,3 +44,14 @@ $(document).ready(function() {
 	$('.title').click(showText); 
 		
 }); 
+
+
+
+//new addition (image animation)
+$("#clickme").click(function(){
+$("#animation").animate({
+	left:"+=500"
+}, 5000, function() {
+	//animation complete
+ });
+});
