@@ -6,7 +6,7 @@
 <title>Project 2 Sample</title>
 <link rel="stylesheet" href="css/sample.css">
 
-<script
+	<script
 	  src="https://code.jquery.com/jquery-3.1.1.min.js"
 	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	  crossorigin="anonymous">
@@ -14,22 +14,19 @@
 
 </head>
 	
-
 <body>
-
-<div id="clickme">
-  Click here
-</div>
+<!--<button id="run">&laquo;</button>-->
 <!--adding animation-->
  <div id="animation">
-<img src="img/cycle_icon.png" alt="biker" height="50" width="50" style="position:relative;left:10px;">
+ <img  src="img/cycle_icon.png" alt="biker" height="50" width="50" style="padding-left:0px">
 </div>
 
+<hr>
 <form>
 
 <div id="question1">
 
-<h3> True/False: Biking instead of driving can prevent 1.2lbs/mile of carbon emmissions from entering the atmosphere.</h3>
+<h3> (Question 1.) True/False: <br> Biking instead of driving can prevent 1.2lbs/mile of carbon emmissions from entering the atmosphere.</h3>
 
 <div>
 <input  type="radio" name="question" id="trueyes1" value="yes">
@@ -49,14 +46,14 @@
 </div>
 
 <!--textbox presenting results of answer-->
-<textarea id="answers" rows="10" cols="30">
+<textarea id="answers" rows="10" cols="20">
 </textarea>  
 
 <!--adding interactive explination -->
 <div class="title">
-<p>Hint:</p></div>
+<p><i>Hint:</i></p></div>
       <div class="text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet, quam id placerat facilisis, est diam fringilla orci, non eleifend massa urna aliquam magna. Vestibulum auctor velit quis ipsum vestibulum maximus.</p>
+      <p>1 US gallon of gasoline makes about 19.4 pounds of CO2. </p>
       </div>
 
 <div id="pagemovement1">
@@ -64,7 +61,6 @@
 </div>
 
 </form>
-
 
 
 <script src="js/sample.js"></script>

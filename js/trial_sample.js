@@ -17,11 +17,11 @@ function results()
 
 	//radio button question 4
 	if(document.getElementById("trueyes2").checked==true){
-		document.getElementById("answers2").value+="Incorrect!\n";
+		document.getElementById("answers").value+="Incorrect!\n";
 	}
 	else {
 		if (document.getElementById("trueno2").checked==true){
-			document.getElementById("answers2").value+="Correect!\n";
+			document.getElementById("answers").value+="Correect!\n";
 		}
 	}
 }
@@ -62,31 +62,7 @@ $("#animation").animate({
 	//run once DOM is ready to mainipulate 
   $( document ).ready(function() {
   // Handler for .ready() called.
-  $("#animation").animate({"padding-left":"980px"},20000); 
+  $("#animation").animate({"padding-left":"980px"},10000);
+	
 });
-
-
-
-/*$.when( { testing: 123 } ).done(function(animate) {
-  		alert( animate.testing ); // Alerts "123"
-  		
-	}); */
-
-(function(){
-    setTimeout(timeUp, 20000)
-})();
-function timeUp()
-    {
-   alert("Time is up! Next Question");
-    }
-
-//found timeUp function @: http://stackoverflow.com/questions/22158662/why-is-settimeout-executing-immediately
-
-
-/*
-function alert() {
-	alert("It's " + " degrees outside - " + "go swimming!");
-}  */
-
-
-
+	
